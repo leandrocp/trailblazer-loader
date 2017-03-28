@@ -5,8 +5,8 @@ module Trailblazer
   class Loader
 
     def concept_dirs
-      %w{ callback  cell  contract  operation  policy   representer  view  query   worker  repository   serializer
-          callbacks cells contracts operations policies representers views queries workers repositories serializers }
+      %w{ callback  cell  contract  operation  policy   representer  view  query   worker  repository   serializer  callable
+          callbacks cells contracts operations policies representers views queries workers repositories serializers callables }
     end
 
     # Please note that this is subject to change - we're still finding out the best way
